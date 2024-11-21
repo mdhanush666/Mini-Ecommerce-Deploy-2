@@ -5,7 +5,7 @@ const path = require("path");
 const cors = require('cors');
 
 const dotenv    = require('dotenv');
-dotenv.config({path:path.join(__dirname,'config.env')});
+dotenv.config({path:path.join(__dirname,'config','config.env')});
 
 const app = express();
 app.use(bodyParser.json());
